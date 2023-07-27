@@ -6,7 +6,7 @@ on which line you are getting error and exactly what is error i.e error message
 
 
 import sys
-import logger
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()    # In exc_tb we will get the error message and error line number and in which file error is occured.
@@ -30,5 +30,5 @@ class CustomException(Exception):
 #         a = 1/0
 #         print(a)
 #     except Exception as e:
-#         logger.logging.info(e)
+#         logging.info(e)
 #         raise CustomException(e,sys)
