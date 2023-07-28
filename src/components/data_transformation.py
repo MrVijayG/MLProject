@@ -74,7 +74,7 @@ class DataTransformation:
 
             preprocessing_obj = self.get_transformer_object()
 
-            print("preprocessing_obj : ------------- ",preprocessing_obj,"+++++++++++++++++")
+            # print("preprocessing_obj : ------------- ",preprocessing_obj,"+++++++++++++++++")
 
             target_column_name = "math_score"
 
