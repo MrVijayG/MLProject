@@ -58,4 +58,4 @@ if __name__ =="__main__":
 
     model_train = model_trainer.ModelTrainer()
     print(model_train.initiate_model_trainer(train_arr,test_arr))
-    # print(obj)
+    
